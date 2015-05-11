@@ -26,10 +26,23 @@ Quick start
 Installation
 ~~~~~~~~~~~~
 
+
 After downloading, run the appropriate pip command for Python 3 in the project's root directory like so:
 ::
 
     pip3 install .
+
+Dependencies
+~~~~~~~~~~~~
+
+**acd_cli** uses the following modules:
+
+* appdirs
+* sqlalchemy
+
+The corresponding command to install these for Ubuntu would be
+::
+    sudo apt-get install python3-sqlalchemy python3-appdirs
 
 First Run
 ~~~~~~~~~
